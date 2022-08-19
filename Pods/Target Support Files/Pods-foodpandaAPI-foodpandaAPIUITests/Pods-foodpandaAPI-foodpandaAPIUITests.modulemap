@@ -1,0 +1,6 @@
+framework module Pods_foodpandaAPI_foodpandaAPIUITests {
+  umbrella header "Pods-foodpandaAPI-foodpandaAPIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
