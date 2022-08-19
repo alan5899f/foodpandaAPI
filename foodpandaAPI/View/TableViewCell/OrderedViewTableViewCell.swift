@@ -24,7 +24,7 @@ class OrderedViewTableViewCell: UITableViewCell {
         countLabel.layer.borderColor = UIColor.systemGray.cgColor
         countLabel.textAlignment = .center
         foodTitle.numberOfLines = 2
-        foodImageView.layer.cornerRadius = 10
+        foodImageView.layer.cornerRadius = 12
         
         contentView.addSubview(countLabel)
         contentView.addSubview(foodImageView)
