@@ -19,8 +19,6 @@ class DataPersistenceManager {
     
     static let shared = DataPersistenceManager()
     
-    let a = 0
-    
     func ordered(model: RestaurantInfoStrcutProducts, row: Int, resName: String, foodCount: Int, price: Int, completion: @escaping (Result<Void, Error>) -> Void) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return
